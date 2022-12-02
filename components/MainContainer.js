@@ -8,8 +8,8 @@ export default function MainContainer({children}) {
         <Head>
       <link rel="shortcut icon" href="/favicon.ico" />
       <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet"/>
-      <script src="https://kit.fontawesome.com/703a71aaa4.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800&display=optional" rel="stylesheet"/>
+      <script src="https://kit.fontawesome.com/703a71aaa4.js" crossorigin="anonymous" async/>
 
         </Head>
         <Navbar />

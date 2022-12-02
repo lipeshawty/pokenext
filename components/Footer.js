@@ -8,7 +8,7 @@ export default function Footer() {
             <hr/>
             <div  className="row align-items-center justify-content-md-between">
               <div className="col-md-6">
-                <div className="copyright">Desenvolvido com <i class="fa-solid fa-heart"></i> por <a href="https://discord.com/users/986987489346613248" target="_blank">lipesshw</a>.
+                <div className="copyright">Desenvolvido com <i class="fa-solid fa-heart"></i> por <a href="https://discord.com/users/986987489346613248">lipesshw</a>.
                 </div>
               </div>
               <div className="col-md-6">

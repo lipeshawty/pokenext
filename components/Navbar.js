@@ -7,8 +7,8 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg shadow">
     <div className="container">
             <div className="col-6 collapse-brand">
-              <a href="/">
-                    <Image src="/pokeball.png" width="40" height="40"/></a> <strong href="/">PokeNext</strong>
+              <a >
+                    <Image src="/pokeball.png" width="40" height="40" alt="pokeball"/></a> <strong>PokeNext</strong>
               
             </div>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,14 +27,14 @@ export default function Navbar() {
         </div>
         <ul className="navbar-nav ml-lg-auto">
           <li className="nav-item">
-            <a className="nav-link" href="/"><strong>Início</strong>
-            </a>
+            <Link className="nav-link" href="/"><strong>Início</strong>
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="/sobre"><strong>Sobre</strong></a>
+            <Link className="nav-link" href="/sobre"><strong>Sobre</strong></Link>
           </li>
           <li className="nav-item ">
-          <a href="https://github.com/lipeshawty/pokenext"><button type="button" class="btn btn-default btn-round"><i class="fa-brands fa-github"></i>&nbsp;SourceCode</button></a>
+          <Link href="https://github.com/lipeshawty/pokenext"><button type="button" class="btn btn-default btn-round"><i class="fa-brands fa-github"></i>&nbsp;SourceCode</button></Link>
           </li>
         </ul>
       </div>
